@@ -1,0 +1,45 @@
+/* Navbar */
+.container-fluid {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-left: 20px;
+}
+.nav-item {
+    text-align: center;
+    font-size: 1.2em;
+}
+.nav-item:hover {
+    font-weight: bolder;
+}
+
+/* Page Heading */
+.text-center {
+    padding-top: 10px;
+}
+
+/* Main Content */
+section {
+    margin: 25px 8%;
+}
+#main-content {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.title {
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+p {
+    font-size: 1.05em;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+p + p {
+    text-indent: 1.5em;
+    margin-top: 15px; 
+}
